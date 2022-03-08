@@ -1,0 +1,347 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*proyecto*/
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.enlace-menu{
+    text-decoration: none;
+    color: #d03b40;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    background-color: #ded6c0;
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.bloque-1{
+    width: 100%;
+    height: 700px;
+    background-image: url(imagenes/Fondo1.jpg);
+    background-size: cover; 
+    }
+
+.bloque-2{
+    background-color: #d03b40;
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+      }
+.bloque-3{
+    background-color:#ded6c0;
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+    float: right;
+   }
+
+.bloque-4{
+    width: 100%;
+    height: 600px;
+    background-image: url(Imagenes/Fondo2.jpg);
+    display: inline-block;
+    background-size: cover; 
+    color: #f5f0ed;
+    }
+
+.bloque-5{
+    width: 50%;
+    height: 550px;
+    background-color: #f5f0ed;
+    display: inline-block;
+    float: left;
+    }
+.bloque-8{
+    width: 50%;
+    height: 550px;
+    background-color: #f5f0ed;
+    display: inline-block;
+    }
+
+.bloque-6{
+    background-color: #ded6c0;
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+    float: left;
+    
+    
+}
+.bloque-7{
+    background-color: #d03b40;
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+    
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: #241d1b;
+    display: inline-block;
+    }
+
+.titulo{
+  text-align: center;
+  padding: 250px 20px 20px 100px;
+  font-size: 44px;
+  color: #f5f0ed;
+  font-weight: bold;
+}
+hr{
+    color: #f5f0ed;
+    width: 10%;
+}
+.parrafo-portada{
+    text-align: center;
+    padding: 0px 300px 200px 300px;
+    font-size: 28px;
+    color: #f5f0ed;
+    
+}
+.titulo-2{
+    text-align: center;
+    padding: 100px 100px 50px 100px;
+    font-size: 28px;
+    color: #ded6c0;
+    font-weight: bold;
+}
+.parrafo-2{
+    text-align: center;
+    padding: 0px 100px;
+    font-size: 16px;
+    color: #ded6c0;
+}
+.titulo-3{
+    text-align: center;
+    padding: 100px 150px 50px 100px;
+    font-size: 28px;
+    color: #d03b40;
+    font-weight: bold;
+}
+.parrafo-3{
+    text-align: center;
+    padding: 0px 100px;
+    font-size: 16px;
+    color: #d03b40;
+}
+.titulo-4{
+    text-align: center;
+    padding: 200px 100px 50px 100px;
+    font-size: 44px;
+   
+    font-weight: bold;
+}
+.parrafo-4{
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 150px 50px 150px;
+}
+.container-boton{
+    position: relative!important;
+
+}
+
+.nav__item--topbar{
+    color: white;
+}
+
+.boton{
+    padding: 10px;
+    border: #f5f0ed 4px solid;
+    text-decoration: none;
+    color: #f5f0ed;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute!important;
+    display: flex;
+    justify-content: center;
+
+    }
+.boton:hover{
+    text-decoration: none;
+    background: black;
+}
+.iconos{
+    margin: 40px 20px;
+    
+}
+.oferta{
+    display: inline-block;
+}
+.icono{
+    width: 25%;
+}
+.texto-5{
+    display: inline-block;
+    width: 60%;
+    float: right;
+    margin-top: 50px;
+    text-align: left;
+}
+
+h2{
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #3c3c3b;
+    font-size: 24px;
+}
+p{
+    padding-right: 20px;
+    line-height: 20px;
+    }
+.correo{
+    text-decoration: none;
+    color: #d03b40;
+    font-weight: bold;
+}
+.mapa{
+    text-decoration: none;
+    color: #ded6c0;
+    font-weight: bold;
+}
+.parrafo-footer{
+    padding: 60px 15px;
+    color: #ded6c0;
+}
+.navegacion{
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
+.nav{
+    padding-right: 30px;
+    text-decoration: none;
+    color: #f5f0ed;
+    font-weight: bold;
+}
+.logo{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+
+}
+
+@media screen and (max-width: 1066px){
+    .bloque-5,
+    .bloque-8{
+        width: 100%;
+        float: none;
+    }
+}
+@media screen and (max-width: 821px){
+    .titulo{
+        font-size: 44px;
+    }
+    .parrafo-portada{
+        padding: 0px 100px 100px 100px;
+    }
+    .titulo-2,
+    .titulo-3{
+        padding: 50px 50px 50px 50px;
+    }
+    .navegacion{
+        display: none;
+    }
+}
+@media screen and (max-width: 656px){
+    .bloque-2,
+    .bloque-3,
+    .bloque-6,
+    .bloque-7{
+        width: 100%;
+        float: none;
+    }
+    .titulo{
+        padding: 200px 20px 20px 50px;
+    }
+   
+}
+@media screen and (min-width: 820px){
+    .enlace-menu,
+    .menu-desplegado{
+        display: none;
+    }
+}
+/*MENU*/
+/* menu --*/
+
+div.menu-desplegado{
+    width: 100%;
+    min-height: 200px;
+    background-color: black;
+    overflow: hidden;
+    padding: 20px 15px;
+}
+a.menu-desplegado{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.5;
+    color: #ded6c0;
+    text-decoration: none;
+}
+
+.lanzador{
+    width: 100%;
+    height: 2px;
+    border-width: thin;
+    border-radius: 10px;
+}
+
